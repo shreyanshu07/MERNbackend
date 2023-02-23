@@ -2,6 +2,7 @@ const bodyParser = require('body-parser');
 const express=require('express')
 const app=express()
 require("./db/db");
+
 const port=process.env.PORT || 8000;
 app.listen(port,()=>{
     console.log(`connection is setup at ${port}`)

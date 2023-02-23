@@ -6,12 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
-    
   },
   "author": "James Vickery",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "dotenv": "^16.0.3",
     "express": "^4.16.4",
     "mongoose": "^5.7.5",
     "password-generator": "^2.2.0"
